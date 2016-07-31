@@ -1,4 +1,3 @@
-Berkeley Kaggle Decal site
-==========================
+# Berkeley Kaggle Decal site
 
-[Click me for todos](https://trello.com/b/jbtl5lcu/website)
+We host all of our todos on our [trello board](https://trello.com/b/jbtl5lcu/website).
