@@ -1,6 +1,6 @@
 ---
 layout: post
-title:  "Welcome to Jekyll!"
+title:  "Python setup. Coding environment setup. Variables/Data Types. If, for, while statements."
 date:   2016-08-03 11:26:26 -0700
 categories: jekyll update
 ---
