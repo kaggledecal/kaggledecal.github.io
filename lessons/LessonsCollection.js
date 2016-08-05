@@ -9,4 +9,9 @@ Lessons.attachSchema(new SimpleSchema({
 	optional: {
 		type:Boolean
 	},
+	link: {
+		type: String,
+		regEx: SimpleSchema.RegEx.Url,
+		optional:true
+	}
 }));

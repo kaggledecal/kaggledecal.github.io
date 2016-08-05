@@ -1,9 +1,25 @@
-<head>
-  	<title>kaggledecal</title>
-</head>
-
 <body>
-  	<h1>Welcome to the Kaggle Decal site!</h1>
-	<h2>Sign up <a href="https://docs.google.com/forms/d/e/1FAIpQLSfVV95GoZJ37uIBrihY4WgODZnkU7ffCXTLcimhKnDyHlnraQ/viewform">here</a></h2>
 	{{>insertLessonForm}}
+	{{>syllabus}}
 </body>
+
+<template name="syllabus">
+	<table id="syllabusTable">
+		<thead>
+			<tr>
+				<th>Date</th>
+				<th>Description</th>
+				<th>Link</th>
+			</tr>
+		</thead>
+		<tbody>
+			{{#each lessons}}
+				<tr>
+					<td>{{date}}</td>
+					<td>{{description}}</td>
+					<td><a href="{{link}}">Link</a></td>
+				</tr>
+			{{/each}}
+		</tbody>
+	</table>
+</template>
