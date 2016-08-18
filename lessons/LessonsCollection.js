@@ -1,13 +1,15 @@
 Lessons = new Mongo.Collection("lessons");
 Lessons.attachSchema(new SimpleSchema({
-	date: {
-		type: Date
+	dates: {
+		type: [Date]
 	},
 	description: {
 		type: String,
 	},
 	optional: {
-		type:Boolean
+		type:Boolean,
+		optional:true,
+		defaultValue:false
 	},
 	link: {
 		type: String,
