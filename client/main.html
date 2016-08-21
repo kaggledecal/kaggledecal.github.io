@@ -1,8 +1,64 @@
 <body>
-	{{>insertLessonForm}}
-	{{>syllabus}}
+    {{>navbar}}
+    <div id="content">
+        {{>header}}
+    	{{>insertLessonForm}}
+    	{{>syllabus}}
+    </div>
 </body>
+<template name="header">
+  <div id="coursename">
+      <a href="/">
+        <span id="courseid">Kaggle Decal</span></a>
+        Kaggle Decal, Fall 2016
+    </div>
+    <div id="courseinfo">
+        Instructors: Jerry Chen, Phillip Kuznetsov, Joseph Simonian, Max Johansen, Gautham Kesineni
+    </div>
+    {{>announcements}}
+</template>
+<template name="navbar">
+    <div id="navbar" class="navbar-top navitems">
+        <a href="/"><div class="navitem">Main</div></a>
+        <!-- <a href="about.html"><div class="navitem">Course Info</div></a> -->
+        <!-- <a href="staff.html"><div class="navitem">Staff</div></a> -->
+        <!-- <a href="assign.html"><div class="navitem">Assignments</div></a> -->
+        <!-- <a href="resources.html"><div class="navitem">Resources</div></a> -->
+    </div>
+</template>
 
+<!-- Template for all announcements -->
+<template name="announcements">
+  <div class="segment">
+      <div class="segmenttitle">
+          Announcements
+      </div>
+  </div>
+  <table id="announcements">
+      {{#each announcement}}
+          {{> new_announcement}}
+      {{/each}}
+  </table>
+</template>
+
+<!-- Tempate for each individual announcemnt. TODO WIP -->
+<template name="new_announcement">
+  <thead>
+      <tr>
+          <th>Date</th>
+          <th>Announcement</th>
+      </tr>
+  </thead>
+  <tr>
+      <td>7/27</td>
+      <td>
+          Dummy Announcement
+      </td>
+  </tr>
+</template>
+
+
+<!-- Template to display calendar -->
 <template name="syllabus">
 	<table id="syllabusTable">
 		<thead>
@@ -14,7 +70,8 @@
 		</thead>
 		<tbody>
 			{{#each lessons}}
-				<tr>
+
+				<tr class="{{#if isOdd @index}}odd{{else}}even{{/if}}">
 					<td>
 						{{#each dates}}
 							{{this}}
