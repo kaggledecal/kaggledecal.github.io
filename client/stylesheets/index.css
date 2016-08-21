@@ -17,6 +17,12 @@ td {
 
 
 /* Announcements Table */
+.important {
+	color: #2F86EB;
+	margin: 30px 40px 20px;
+	font-size: 40px;
+	line-height: 45px;
+}
 #announcements td {
     line-height: 20px;
     padding-top: 5px;
