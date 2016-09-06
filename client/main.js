@@ -6,6 +6,11 @@ Template.syllabus.helpers({
 		return Lessons.find({});
 	},
 
+    formatDate:function(date) {
+        let format = "ddd MM/DD";
+        return moment(date).format(format);
+    },
+
     isOdd:function(index) {
         if(index % 2 === 0) {
           return true;

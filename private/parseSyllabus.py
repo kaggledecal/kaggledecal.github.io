@@ -1,3 +1,6 @@
+"""
+converts the syllabus textfile into a parsable json file.
+"""
 from datetime import datetime
 import json
 f = open('syllabus.txt', 'r')
