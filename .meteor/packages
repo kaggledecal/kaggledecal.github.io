@@ -24,3 +24,6 @@ aldeed:collection2
 momentjs:moment
 kadira:flow-router
 kadira:blaze-layout
+accounts-ui
+accounts-password@1.2.12
+useraccounts:bootstrap

@@ -62,7 +62,7 @@ a:hover {
     cursor: pointer;
 }
 .material-icons.md-light { color: rgba(255, 255, 255, 1); }
-#content {
+.content {
     margin: 20px 40px 40px;
 }
 .segment {
