@@ -1,2 +1,5 @@
 node_modules/
 *.swp
+settings.json
+settings-development.json
+settings-production.json

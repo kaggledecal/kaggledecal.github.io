@@ -20,25 +20,18 @@ FlowRouter.route('/login', {
         BlazeLayout.render("loginPage")
     }
 });
+// const loggedIn = FlowRouter.group({
+//   triggersEnter: [ function() {
+//       // actions to take if user is not logged in
+//       if (!(Meteor.loggingIn() || Meteor.userId())) {
+//         let route = FlowRouter.current();
+//         if (route.route.name !== 'login') {
+//           Session.set('redirectAfterLogin', route.path);
+//         }
+//         return FlowRouter.go('login');
+//       }
+//     }
+//   ]
+// });
 
-const loggedIn = FlowRouter.group({
-  triggersEnter: [ function() {
-      // actions to take if user is not logged in
-      if (!(Meteor.loggingIn() || Meteor.userId())) {
-        let route = FlowRouter.current();
-        if (route.route.name !== 'login') {
-          Session.set('redirectAfterLogin', route.path);
-        }
-        return FlowRouter.go('login');
-      }
-    }
-  ]
-});
-
-loggedIn.route('/dashboard', {
-  name: 'dashboard',
-  action: function() {
-    return BlazeLayout.render("dashboardPage");
-  }
-});
 // ---

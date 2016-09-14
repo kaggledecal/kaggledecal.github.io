@@ -27,3 +27,5 @@ kadira:blaze-layout
 accounts-ui
 accounts-password@1.2.12
 useraccounts:bootstrap
+session
+peerlibrary:aws-sdk

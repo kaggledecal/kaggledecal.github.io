@@ -6,6 +6,11 @@ Lessons.attachSchema(new SimpleSchema({
 	description: {
 		type: String,
 	},
+    videoLink: {
+        type: String,
+        regEx: SimpleSchema.RegEx.Url,
+        optional: true
+    },
 	optional: {
 		type:Boolean,
 		optional:true,

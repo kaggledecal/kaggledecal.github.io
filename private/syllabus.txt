@@ -1,37 +1,37 @@
-09/7 ! Python setup. Coding environment setup. Variables/Data Types. If, for, while statements.
+09/7 ! Python setup. Coding environment setup. Variables/Data Types. If, for, while statements. ! https://www.youtube.com/watch?v=fzqTOYnWMX4
 
-09/12 ! (Interweave concepts from last lecture) Reading data. Structure of arrays/matrices/dataframes. Objects. Histograms and missing value imputation. Summary statistics.
+09/12 ! (Interweave concepts from last lecture) Reading data. Structure of arrays/matrices/dataframes. Objects. Histograms and missing value imputation. Summary statistics. ! ""
 
-09/14 ! (Interweave concepts from last lecture). More summary statistics. Custom functions and global/local frames.
+09/14 ! (Interweave concepts from last lecture). More summary statistics. Custom functions and global/local frames. ! ""
 
-09/19 !  Review or more practice/catchup day.
+09/19 !  Review or more practice/catchup day. ! ""
 
-09/21 ! Overview of class. Introduction of Titanic data set. Hands-on data exploration. Plots. Summary statistics.
+09/21 ! Overview of class. Introduction of Titanic data set. Hands-on data exploration. Plots. Summary statistics. ! ""
 
-09/26 ! Data cleaning. Regular expressions.
+09/26 ! Data cleaning. Regular expressions. ! ""
 
-09/28 ! Linear Regression. Assumptions for intuition. Residuals. Interpretation. Practical example on Titanic. Example of linear dependence (Santander data set add-on).
+09/28 ! Linear Regression. Assumptions for intuition. Residuals. Interpretation. Practical example on Titanic. Example of linear dependence (Santander data set add-on). ! ""
 
-10/3 ! Logistic Regression. Assumptions for intuition. Difference from Linear Regression. Practical example on Titanic. Regression assignment due 10/2. Form Teams Here. Deadline to submit team proposals is 10/13.
+10/3 ! Logistic Regression. Assumptions for intuition. Difference from Linear Regression. Practical example on Titanic. Regression assignment due 10/2. Form Teams Here. Deadline to submit team proposals is 10/13. ! ""
 
-10/5 ! Introduction of Digit Recognition data set. Linear and logistic regression. KNN clustering.
+10/5 ! Introduction of Digit Recognition data set. Linear and logistic regression. KNN clustering. ! ""
 
-10/10 ! K-means
+10/10 ! K-means ! ""
 
-10/12 ! In-class implementation of KNN.
+10/12 ! In-class implementation of KNN. ! ""
 
-10/17 ! Validation Method. Cross Validation. Review of all models. KNN assignment due 10/16
+10/17 ! Validation Method. Cross Validation. Review of all models. KNN assignment due 10/16 ! ""
 
-10/19 ! Introduction of Auto-Librarian data set. NLP: bag-of-words model. Open-ended project instructions.
+10/19 ! Introduction of Auto-Librarian data set. NLP: bag-of-words model. Open-ended project instructions. ! ""
 
-10/24 ! RandomForest.
+10/24 ! RandomForest. ! ""
 
-10/26 ! Review. More practice/catchup day.
+10/26 ! Review. More practice/catchup day. ! ""
 
-10/31 ! Guest speaker. Auto-librarian project and RandomForest assignment due on 10/30.
+10/31 ! Guest speaker. Auto-librarian project and RandomForest assignment due on 10/30. ! ""
 
-11/2, 11/7, 11/9 ! Introduction to neural networks via TensorFlow..  Final Project introduced. Neural Network assignment due 11/13
+11/2, 11/7, 11/9 ! Introduction to neural networks via TensorFlow..  Final Project introduced. Neural Network assignment due 11/13 ! ""
 
-11/14, 11/30 ! Miscellaneous topics: Microsoft Azure, Tableau, SQL, AWS, etc. Final project due on 12/9.
+11/14, 11/30 ! Miscellaneous topics: Microsoft Azure, Tableau, SQL, AWS, etc. Final project due on 12/9. ! ""
 
-12/6, 12/8 ! Kaggle Master Guest Lecturers
+12/6, 12/8 ! Kaggle Master Guest Lecturers ! ""

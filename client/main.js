@@ -17,5 +17,18 @@ Template.syllabus.helpers({
         } else {
           return false;
         }
+    },
+
+    hasVideo:function() {
+        return false;
     }
 });
+//
+// Accounts.onLogin(function() {
+//     let redirect = Session.get('redirectAfterLogin');
+//     if (redirect != null) {
+//         if (redirect !== '/login') {
+//             return FlowRouter.go(redirect);
+//         }
+//     }
+// });

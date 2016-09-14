@@ -23,30 +23,6 @@
     </div>
 
 </template>
-<!-- The page that has all of the dash items specific to each user. -->
-<template name="dashboardPage">
-    <h2> This is your dashboard! </h2>
-    {{currentUser}}
-</template>
-
-
-<template name="course_desc">
-    <div class="content segment">
-        <div class="segmenttitle">
-            Course Description
-        </div>
-        <div class="text">
-            Welcome to Data Science with Kaggle!  This class is a projects-based class with a machine learning bias - projects will be in the form of instructor-run kaggle data science competitons released every few weeks. We will cover fundamentals such as data cleaning, interpretation, and visualization, machine learning algorithms such as clustering, random forests, and neural networks, and many other topics related to data science.
-        </div>
-        <div class="text">
-            Kaggle is home to an abundant source of company-volunteered data that encourage data scientists from around the world to solve proposed, and often business-related, challenges. The platform fosters a great amount of knowledge sharing, competition, and practical relevance where beginners and experts alike benefit from an exponentially expanding field.
-        </div>
-        <div class="text">
-            You are expected to have some programming or statistics backgrounds and so the material will be of greatest benefit to sophomores or those who have taken CS61A, DATA 8, STAT 133, or equivalent. However, the first two weeks of class will be an optional python bootcamp for those taking the course with absolutely no programming background. By the end, you can determine whether you are comfortable continuing through the course.
-        </div>
-    </div>
-</template>
-
 
 <!-- Sub templates -->
 <template name="header">]
@@ -57,21 +33,28 @@
             Kaggle Decal, Fall 2016
         </div>
         <div id="courseinfo">
-            Instructors: Jerry Chen, Phillip Kuznetsov, Joseph Simonian, Max Johansen, Gautham Kesineni
+            Instructors: Jerry Chen, Phillip Kuznetsov, Joseph Simonian, Max Johansen
         </div>
+        {{> resourcesPanel}}
     </div>
 </template>
+<template name="resourcesPanel">
+    <div id="resources">
+        <a href="https://piazza.com/berkeley/fall2016/stat198/home">Piazza</a><br>
+        <a href="https://github.com/kaggledecal/kaggle_fa16">Github</a><br>
+        <a href="/lectures">Lectures</a>
+    </div>
+</template>
+<template name="lecturePage">
 
+</template>
 
 <template name="navbar">
     <div id="navbar" class="navbar-top navitems">
         <a href="/"><div class="navitem">Main</div></a>
         <a href="/about"><div class="navitem">About</div></a>
-        <!-- <a href="about.html"><div class="navitem">Course Info</div></a> -->
-        <!-- <a href="staff.html"><div class="navitem">Staff</div></a> -->
-        <!-- <a href="assign.html"><div class="navitem">Assignments</div></a> -->
-        <!-- <a href="resources.html"><div class="navitem">Resources</div></a> -->
-        {{> loginButtons}}
+        <!-- <a href="/dashboard"><div class="navitem">Dashboard</div></a> -->
+        <!-- {{> loginButtons}} -->
     </div>
 </template>
 
@@ -113,6 +96,7 @@
     		<thead>
     			<tr>
     				<th>Date(s)</th>
+                    <th>Video</th>
     				<th>Description</th>
     				<th>Link</th>
     			</tr>
@@ -126,6 +110,14 @@
     							{{formatDate this}}
     						{{/each}}
     					</td>
+                        <td>
+                            <!-- {{#if hasVideo}}
+                            <a href="{{videoLink}}">Lecture</a>
+                            {{else}}
+                            N/A
+                            {{/if}} -->
+                            lec
+                        </td>
     					<td>{{description}}</td>
     					<td><a href="{{link}}">Link</a></td>
     				</tr>
