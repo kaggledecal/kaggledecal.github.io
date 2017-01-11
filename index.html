@@ -1,271 +1,86 @@
-
-<html><head>
-        <title>Kaggle Decal</title> 
-  <link rel="stylesheet" type="text/css" href="/stylesheets/common.css">
-  <link rel="stylesheet" type="text/css" href="/stylesheets/index.css">
+---
+layout: compress
+---
+<!DOCTYPE html>
+<html lang="en" class="no-js">
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>{{ site.title }}</title>
+    <meta name="description" content="{{ site.description }}"/>
+    <meta name="keywords" content="{{ site.keywords }}"/>
+    <meta name="author" content="{{ site.author }}"/>
+    <link rel="shortcut icon" href="img/favicon.ico">
+    <link rel="stylesheet" type="text/css" href="css/normalize.css"/>
+    <link rel="stylesheet" type="text/css" href="fonts/font-awesome/css/font-awesome.css"/>
+    <link rel="stylesheet" type="text/css" href="css/modern-blog.css"/>
+    <!--[if IE]>
+    <script type="text/javascript" src="js/vendors/html5.min.js"></script>
+    <![endif]-->
+    <script>
+        if (navigator.userAgent.toLowerCase().indexOf('firefox') > -1) {
+            var root = document.getElementsByTagName('html')[0];
+            root.setAttribute('class', 'ff');
+        }
+    </script>
 </head>
-<body>
-  <div id="navbar" class="navbar-top navitems">
-    <a href="/"><div class="navitem">Main</div></a>
-    <!-- <a href="about.html"><div class="navitem">Course Info</div></a> -->
-    <!-- <a href="staff.html"><div class="navitem">Staff</div></a> -->
-    <!-- <a href="assign.html"><div class="navitem">Assignments</div></a> -->
-    <!-- <a href="resources.html"><div class="navitem">Resources</div></a> -->
-  </div>
-  <div id="content">
-    <div id="coursename">
-      <a href="/">
-        <span id="courseid">Kaggle Decal</span></a>
-        Kaggle Decal, Fall 2016
-      </div>
-      <div id="courseinfo">
-        Instructors: Jerry Chen, Phillip Kuznetsov, Joseph Simonian, Max Johansen, Gautham Kesineni
-      </div>
-      <div class="segment">
-        <div class="segmenttitle">
-          Announcements
+<body class="body">
+<div class="container">
+    <header class="header">
+        <h1>{{ site.title }}<span>{{ site.description }}</span></h1>
+        <nav class="links">
+            <a href="#"><i class="fa fa-twitter-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-instagram fa-3x"></i></a>
+            <a href="#"><i class="fa fa-facebook-square fa-3x"></i></a>
+            <a href="#"><i class="fa fa-tumblr-square fa-3x"></i></a>
+        </nav>
+    </header>
+    <div class="content">
+        <!-- trianglify pattern container -->
+        <div class="pattern pattern--hidden"></div>
+        <!-- cards -->
+        <div class="wrapper">
+            {% for post in site.posts %}
+            <div class="card" data-id="{{ post.id }}">
+                <div class="card__container card__container--closed">
+                    <svg class="card__image" xmlns="http://www.w3.org/2000/svg"
+                         xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 1920 1200"
+                         preserveAspectRatio="xMidYMid slice">
+                        <defs>
+                            <clipPath id="{{ post.id }}-clip-path">
+                                <polygon class="clip" points="0,1200 0,0 1920,0 1920,1200"></polygon>
+                            </clipPath>
+                        </defs>
+                        <image clip-path="url(#{{ post.id }}-clip-path)" width="1920" height="1200"
+                               xlink:href="{{ post.image }}"></image>
+                    </svg>
+                    <div class="card__content">
+                        <i class="card__btn-close fa fa-times"></i>
+                        <div class="card__caption">
+                            <h2 class="card__title">{{ post.title }}</h2>
+                            <p class="card__subtitle">{{ post.datestr }}</p>
+                            <br>
+                            <p class="card__subtitle">{{ post.subtitle }}</p>
+                        </div>
+                        <div class="card__copy">
+                            {{ post.content }}
+                        </div>
+                    </div>
+                </div>
+            </div>
+            {% endfor %}
+            <!-- /cards -->
         </div>
-      </div>
-      <table id="announcements">
-
-      </table>
-
-
-
-      <table id="syllabusTable">
-        <thead>
-          <tr>
-            <th>Date(s)</th>
-            <th>Description</th>
-            <th>Link</th>
-            <th>Lecture</th>
-          </tr>
-        </thead>
-        <tbody>
-
-
-          <tr class="odd">
-            <td>
-
-              Tue Sep 06
-
-            </td>
-            <td>Python setup. Coding environment setup. Variables/Data Types. If, for, while statements.</td>
-            <td><a>Link</a></td>
-            <td><a href="https://www.youtube.com/watch?v=fzqTOYnWMX4">Lecture</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Thu Sep 08
-
-            </td>
-            <td>(Interweave concepts from last lecture) Reading data. Structure of arrays/matrices/dataframes. Objects. Histograms and missing value imputation. Summary statistics.</td>
-            <td><a>Link</a></td>
-            <td><a href="https://www.youtube.com/watch?v=lY3Vxip48Pw">Lecture</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Tue Sep 13
-
-            </td>
-            <td>(Interweave concepts from last lecture). More summary statistics. Custom functions and global/local frames.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Thu Sep 15
-
-            </td>
-            <td>Review or more practice/catchup day.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Sep 19
-
-            </td>
-            <td>Overview of class. Introduction of Titanic data set. Hands-on data exploration. Plots. Summary statistics.</td>
-            <td><a>Link</a></td>
-            <td><a href="https://youtu.be/xQJ_GrjP32M">Lecture</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Wed Sep 21
-
-            </td>
-            <td>Data cleaning. Regular expressions.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Sep 26
-
-            </td>
-            <td>Linear Regression. Assumptions for intuition. Residuals. Interpretation. Practical example on Titanic. Example of linear dependence (Santander data set add-on).</td>
-            <td><a>Link</a></td>
-            <td><a href="https://youtu.be/mcfJv1wcIMY">Lecture</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Wed Sep 28
-
-            </td>
-            <td>Logistic Regression. Assumptions for intuition. Difference from Linear Regression. Practical example on Titanic. Regression assignment due 10/2. Form Teams Here. Deadline to submit team proposals is 10/13.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Oct 03
-
-            </td>
-            <td>Introduction of Digit Recognition data set. Linear and logistic regression. KNN clustering.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Wed Oct 05
-
-            </td>
-            <td>K-means</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Oct 10
-
-            </td>
-            <td>In-class implementation of KNN.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Wed Oct 12
-
-            </td>
-            <td>Validation Method. Cross Validation. Review of all models. KNN assignment due 10/16</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Oct 17
-
-            </td>
-            <td>Introduction of Auto-Librarian data set. NLP: bag-of-words model. Open-ended project instructions.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Wed Oct 19
-
-            </td>
-            <td>RandomForest.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Oct 24
-
-            </td>
-            <td>Review. More practice/catchup day.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Wed Oct 26
-
-            </td>
-            <td>Guest speaker. Auto-librarian project and RandomForest assignment due on 10/30.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Mon Oct 31
-
-              Wed Nov 02
-
-              Mon Nov 07  00:00:00 GMT-0800 (PST)
-
-              Wed Nov 09  00:00:00 GMT-0800 (PST)
-
-            </td>
-            <td>Introduction to neural networks via TensorFlow..  Final Project introduced. Neural Network assignment due 11/13</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="even">
-            <td>
-
-              Mon Nov 14  00:00:00 GMT-0800 (PST)
-
-              Wed Nov 30  00:00:00 GMT-0800 (PST)
-
-            </td>
-            <td>Miscellaneous topics: Microsoft Azure, Tableau, SQL, AWS, etc. Final project due on 12/9.</td>
-            <td><a>Link</a></td>
-          </tr>
-
-
-          <tr class="odd">
-            <td>
-
-              Tue Dec 06  00:00:00 GMT-0800 (PST)
-
-              Thu Dec 08  00:00:00 GMT-0800 (PST)
-
-            </td>
-            <td>Kaggle Master Guest Lecturers</td>
-            <td><a>Link</a></td>
-          </tr>
-
-        </tbody>
-      </table>
-    </div></body></html>
+    </div>
+    <!-- /container -->
+</div>
+<!-- JS -->
+<script src="js/vendors/trianglify.min.js"></script>
+<script src="js/vendors/TweenMax.min.js"></script>
+<script src="js/vendors/ScrollToPlugin.min.js"></script>
+<script src="js/vendors/cash.min.js"></script>
+<script src="js/card-modern-blog.js"></script>
+<script src="js/modern-blog.js"></script>
+</body>
+</html>
