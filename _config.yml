@@ -1,0 +1,7 @@
+# Site settings
+title: Kaggle Decal
+description: "Instructors: Phillip Kuznetsov, Raul Puri, Will Guss, Daniel Geng"
+keywords: Data Science, Machine Learning, Kaggle, Decal
+author: Daniel Gang
+baseurl: "" # the subpath of your site, e.g. /blog/
+url: "" # the base hostname & protocol for your site
