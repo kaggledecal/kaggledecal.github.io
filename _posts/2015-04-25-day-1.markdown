@@ -8,7 +8,7 @@ datestr: Mon Feb 6
 date:   2015-04-25 12:12:12
 ---
 
-Slides: TBA
+[Slides](https://docs.google.com/presentation/d/1RJvvZ2MUi3OKO1gF8X92AWYLg9Xb2ZfsSpAeM-6eqEk/edit#slide=id.g1c40d1bb71_1_5)
 
 Homework: TBA
 
