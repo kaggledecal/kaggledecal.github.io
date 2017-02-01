@@ -6,6 +6,7 @@ avatar: "img/authors/wferr.png"
 image: "img/5.jpg"
 datestr: "Mon Feb 20"
 date:   2015-04-21 12:12:12
+published: false
 ---
 
 Slides: TBA

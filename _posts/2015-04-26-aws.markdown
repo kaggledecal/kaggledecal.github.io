@@ -6,6 +6,7 @@ avatar: "img/authors/wferr.png"
 image: "img/17.jpg"
 datestr: "**************************************"
 date:   2015-04-25 12:12:12
+published: true
 ---
 
 # Deep Learning on AWS
