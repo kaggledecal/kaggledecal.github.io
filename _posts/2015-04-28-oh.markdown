@@ -1,0 +1,39 @@
+---
+title:  "Office Hours"
+subtitle: "Office hours for the TAs"
+author: "Wferr"
+avatar: "img/authors/wferr.png"
+image: "img/17.jpg"
+datestr: "**********************"
+date:   2015-04-28 12:12:12
+published: true
+---
+
+# Phillip
+ 
+Tuesdays 3:45 - 4:45 Supernode (Cory 246)
+
+Also can take google hangouts - just email me - philkuz@ml.berkeley.edu
+
+# Raul
+
+Wednesday 2-3 (Location TBD)
+
+By appointment - raul@ml.berkeley.edu
+
+# Humza
+
+Monday 5:30 - 6:30 (341 Soda)
+
+# Dan
+
+Monday 9:00 - 10:00 pm (Unit One Academic Center)
+
+By appointment please - dangengdg@ml.berkeley.edu 
+
+# James
+
+Wednesday 5:30 - 6:30 (MLK Student Union)
+
+By appointment please - james@ml.berkeley.edu 
+
