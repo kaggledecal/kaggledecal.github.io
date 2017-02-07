@@ -9,6 +9,8 @@ date:   2015-04-25 12:12:12
 published: true
 ---
 
-[Slides](https://docs.google.com/presentation/d/1RJvvZ2MUi3OKO1gF8X92AWYLg9Xb2ZfsSpAeM-6eqEk/edit#slide=id.g1c40d1bb71_1_5)
+[Webcast](https://www.youtube.com/watch?v=RUrXA9koSCw&t=26s)
+
+[Slides](https://docs.google.com/a/berkeley.edu/presentation/d/1RJvvZ2MUi3OKO1gF8X92AWYLg9Xb2ZfsSpAeM-6eqEk/edit?usp=sharing)
 
 [Quiz](https://goo.gl/forms/moXHmopQmgXzH6h32)
