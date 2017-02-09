@@ -9,10 +9,6 @@ date:   2015-04-24 12:12:12
 published: true
 ---
 
-Slides: TBA
+[Slides](https://docs.google.com/presentation/d/1i5NNMnSpeKMhkQETF29zvUEYjv3dO8tYKmi5nhejatQ/edit?usp=sharing)
 
 Video: TBA
-
-Homework: TBA
-
-Projects: TBA
