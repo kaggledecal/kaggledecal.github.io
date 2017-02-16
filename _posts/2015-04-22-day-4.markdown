@@ -11,6 +11,6 @@ published: true
 
 [Slides](https://docs.google.com/a/berkeley.edu/presentation/d/16zpoPNRgFABtlnsCwcCSfMZDZSFysDjGzRR1TQ0QznA/edit?usp=sharing)
 
-[Video](https://youtu.be/nq5RLYvOwFg)
+[Video](https://www.youtube.com/watch?v=-SeTN_ADH6M)
 
 [Notebook](https://github.com/kaggledecal/sp17/blob/master/day03/Classification%20+%20Regression.ipynb)
