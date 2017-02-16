@@ -1,5 +1,5 @@
 ---
-title:  "More Data!"
+title:  "Introduction to Classification and Regression"
 subtitle: "More summary statistics. Custom functions and global/local frames."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
@@ -9,10 +9,8 @@ date:   2015-04-22 12:12:12
 published: true
 ---
 
-Slides: TBA
+[Slides](https://docs.google.com/a/berkeley.edu/presentation/d/16zpoPNRgFABtlnsCwcCSfMZDZSFysDjGzRR1TQ0QznA/edit?usp=sharing)
 
-Video: TBA
+[Video](https://youtu.be/nq5RLYvOwFg)
 
-Homework: TBA
-
-Projects: TBA
+[Notebook](https://github.com/kaggledecal/sp17/blob/master/day03/Classification%20+%20Regression.ipynb)

@@ -1,6 +1,6 @@
 ---
-title:  "Reading Data"
-subtitle: "Structure of arrays/matrices/dataframes. Objects. Histograms and missing value imputation. Summary statistics."
+title:  "Reading Data and Data Visualization"
+subtitle: "Structure of arrays/matrices/dataframes. Objects. Histograms and missing value imputation. Summary statistics. Data visualization."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/3.jpg"
