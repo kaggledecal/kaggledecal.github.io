@@ -11,7 +11,7 @@ published: true
 
 [Slides](https://docs.google.com/presentation/d/14asYO4OKfnSrbe0Q7bfSx1XDjRGcYY4VKztSN7NiedI/edit?usp=sharing)
 
-Video: TBA
+[Video](https://github.com/kaggledecal/sp17/blob/master/day05/Cleaning%20and%20RegEx.ipynb)
 
 Homework: TBA
 
