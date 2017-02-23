@@ -6,10 +6,10 @@ avatar: "img/authors/wferr.png"
 image: "img/5.jpg"
 datestr: "Mon Feb 20"
 date:   2015-04-21 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
+[Slides](https://docs.google.com/presentation/d/14asYO4OKfnSrbe0Q7bfSx1XDjRGcYY4VKztSN7NiedI/edit?usp=sharing)
 
 Video: TBA
 
