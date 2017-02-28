@@ -1,6 +1,6 @@
 ---
 title:  "Linear Regression"
-subtitle: "Assumptions for intuition. Residuals. Interpretation. Practical example on Titanic. Example of linear dependence."
+subtitle: "Assumptions for intuition. Residuals. Interpretation. Example of linear dependence. Heteroscedasticity."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/7.jpg"
