@@ -12,7 +12,3 @@ published: true
 [Slides](https://docs.google.com/presentation/d/10c1cp-ZmqvT9g-aAt6MzgfEItXILHsLYwYHpnVal7IQ/edit?usp=sharing)
 
 Video: TBA
-
-Homework: TBA
-
-Projects: TBA

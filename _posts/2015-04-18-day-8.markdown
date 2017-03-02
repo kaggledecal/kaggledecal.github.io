@@ -1,18 +1,14 @@
 ---
 title:  "Logistic Regression"
-subtitle: "Assumptions for intuition. Difference from Linear Regression. Practical example on Titanic. Regression assignment due 3/5."
+subtitle: "Assumptions for intuition. Difference from Linear Regression. Logistic Regression assignment due 3/17!!!"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/8.jpg"
 datestr: "Wed Mar 01"
 date:   2015-04-18 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
+[Slides](https://docs.google.com/presentation/d/1Me_75Fj2j9YZM006Hn75m9HAYMNPUJfwtpP0RLTXNIc/edit?usp=sharing)
 
-Video: TBA
-
-Homework: TBA
-
-Projects: TBA
+[Video](https://www.youtube.com/watch?v=AMXNa3-QSLk&feature=youtu.be)

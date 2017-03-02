@@ -1,0 +1,18 @@
+---
+title:  "Project 1"
+subtitle: "Wine classification (and frat parties!)"
+author: "Wferr"
+avatar: "img/authors/wferr.png"
+image: "img/17.jpg"
+datestr: "Wed Mar 1"
+date:   2015-04-19 12:12:12
+published: true
+---
+
+### Project 1 Quick Start
+
+1. Pull the kaggledecal repository
+
+2. Navigate to the project1 directory
+
+3. Read the pdf and get started!
