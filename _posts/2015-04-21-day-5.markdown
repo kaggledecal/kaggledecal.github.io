@@ -1,6 +1,6 @@
 ---
-title:  "Overview of Class"
-subtitle: "Introduction of Titanic data set. Hands-on data exploration. Plots. Summary statistics."
+title:  "Cleaning and Preprocessing Data"
+subtitle: "Cleaning Data. Missing Values. Duplicates and Outliers. Feature Engineering and Regular Expressions."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/5.jpg"
@@ -12,7 +12,3 @@ published: true
 [Slides](https://docs.google.com/presentation/d/14asYO4OKfnSrbe0Q7bfSx1XDjRGcYY4VKztSN7NiedI/edit?usp=sharing)
 
 [Video](https://github.com/kaggledecal/sp17/blob/master/day05/Cleaning%20and%20RegEx.ipynb)
-
-Homework: TBA
-
-Projects: TBA
