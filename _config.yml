@@ -1,6 +1,6 @@
 # Site settings
 title: "Kaggle Decal"
-description: "Instructors: Phillip Kuznetsov, Raul Puri, Will Guss, Humza Iqbal, James Bartlett, Daniel Geng</br>Hosted by <a href='https://ml.berkeley.edu'>Machine Learning @ Berkeley</a>"
+description: "Instructors: Phillip Kuznetsov, Raul Puri, Jordan Prosky, Humza Iqbal, James Bartlett, Daniel Geng</br>Hosted by <a href='https://ml.berkeley.edu'>Machine Learning @ Berkeley</a>"
 keywords: Data Science, Machine Learning, Kaggle, Decal
 author: Daniel Gang
 baseurl: "" # the subpath of your site, e.g. /blog/
