@@ -6,7 +6,7 @@ avatar: "img/authors/wferr.png"
 image: "img/9.jpg"
 datestr: "Mon Mar 06"
 date:   2015-04-17 12:12:12
-published: false
+published: true
 ---
 
 [Slides](https://docs.google.com/presentation/d/1EQ_MXVTPpGRnQ6FUqOk6O49pbJldpoipaJ25P2uM9dk/edit?usp=sharing)
