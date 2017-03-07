@@ -1,6 +1,6 @@
 ---
-title:  "MNIST!"
-subtitle: "Introduction of dataset. Linear and logistic regression. KNN clustering"
+title:  "Regularization"
+subtitle: "L1 and L2 Regularization. MNIST."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/9.jpg"
