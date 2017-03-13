@@ -1,6 +1,6 @@
 ---
 title:  "KNN Implementation"
-subtitle: "In class implementation of KNN on MNIST"
+subtitle: "KNN and discussion on the Bias and Variance Dilemma"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/11.jpg"
