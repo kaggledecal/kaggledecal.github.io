@@ -1,18 +1,16 @@
 ---
-title:  "Validation"
-subtitle: "Validation methods. Cross validations. Review of all models. KNN assignment due 3/20"
+title:  "Decision Trees"
+subtitle: "Decision Trees Overview, Gini Impurity, An Example, Preventing Overfitting, Drawbacks. Project 1 Due Friday!!!"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/12.jpg"
 datestr: "Wed Mar 15"
 date:   2015-04-14 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
+[Slides] (https://docs.google.com/presentation/d/1E3xTsMv4DZ5_c9BVN4KQ-qQ3gXh__TCybWL52Nt0yXo/edit?usp=sharing)
 
 Video: TBA
 
-Homework: TBA
-
-Projects: TBA
+Reminder: Project 1 due on Friday!!!
