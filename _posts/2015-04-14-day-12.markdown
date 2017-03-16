@@ -9,7 +9,7 @@ date:   2015-04-14 12:12:12
 published: true
 ---
 
-[Slides] (https://docs.google.com/presentation/d/1E3xTsMv4DZ5_c9BVN4KQ-qQ3gXh__TCybWL52Nt0yXo/edit?usp=sharing)
+[Slides](https://docs.google.com/presentation/d/1E3xTsMv4DZ5_c9BVN4KQ-qQ3gXh__TCybWL52Nt0yXo/edit?usp=sharing)
 
 Video: TBA
 
