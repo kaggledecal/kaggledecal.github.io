@@ -1,18 +1,14 @@
 ---
-title:  "Natural Language Processing"
-subtitle: "Intro to auto-librarian data set. Bag-of-words model. Open ended project intro."
+title:  "Variance, Random Forest, and Bagging"
+subtitle: "Decision Tree Recap, Fixing the Variance Problem, Wisdom of the Crowd, Random Forest, Bagging"
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/13.jpg"
 datestr: "Mon Mar 20"
 date:   2015-04-13 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
+[Slides](https://docs.google.com/presentation/d/15CYIHRBQR_h7r2R0qOFGws8s310kx0qAd4bbZvXk_Vk/edit?usp=sharing)
 
 Video: TBA
-
-Homework: TBA
-
-Projects: TBA
