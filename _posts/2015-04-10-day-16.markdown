@@ -1,18 +1,12 @@
 ---
-title:  "Guest Speaker!"
-subtitle: "Auto-librarian and Random Forest project due 10/30"
+title:  "How Neural Networks Learn"
+subtitle: "Recap. Updating neural network parameters. The backpropagation algorithm."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/16.jpg"
 datestr: "Wed Mar 29"
 date:   2015-04-10 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
-
-Video: TBA
-
-Homework: TBA
-
-Projects: TBA
+[Slides](https://docs.google.com/presentation/d/1xiRn9TyQKScqkoWdThKOQMqGiRVWgMV6tziWK6ky3PA/edit?usp=sharing)

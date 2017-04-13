@@ -1,18 +1,12 @@
 ---
-title:  "Review"
-subtitle: "Review of all models. More practice. Catch-up day"
+title:  "Intoduction to Neural Networks"
+subtitle: "Demonstrations. High-level overview. Biological inspiration. Feedforward."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/15.jpg"
 datestr: "Mon Mar 27"
 date:   2015-04-11 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
-
-Video: TBA
-
-Homework: TBA
-
-Projects: TBA
+[Slides](https://docs.google.com/presentation/d/1RpvBuvBmnd03uhOBiDZ9hvfxF0S3jx8UmQk9kWdXBVQ/edit?usp=sharing)

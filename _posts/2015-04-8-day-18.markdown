@@ -1,18 +1,12 @@
 ---
-title:  "Training Neural Networks"
-subtitle: "Gradient descent and backpropagation"
+title:  "Recurrent Neural Networks"
+subtitle: "Motivation for RNNs. Demonstrations. Types of RNNs. RNNs in Keras."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/18.jpg"
 datestr: "Wed Apr 5"
 date:   2015-04-8 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
-
-Video: TBA
-
-Homework: TBA
-
-Projects: TBA
+[Slides](https://docs.google.com/presentation/d/1z8Q8ATlKNUHx3SQzek-ChuC5Xfp2MImmN8gK1VXtzK4/edit?usp=sharing)

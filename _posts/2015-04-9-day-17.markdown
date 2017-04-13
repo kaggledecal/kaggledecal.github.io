@@ -1,18 +1,12 @@
 ---
-title:  "Neural Networks!"
-subtitle: "Introduction to neural networks."
+title:  "Keras and Convolutional Neural Networks"
+subtitle: "Building Neural Networks with Keras. Convolutional Layers. CNNs in Keras."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/17.jpg"
 datestr: "Mon Apr 3"
 date:   2015-04-9 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
-
-Video: TBA
-
-Homework: TBA
-
-Projects: TBA
+[Slides](https://docs.google.com/presentation/d/13mOHBoUSHtNNyuljG3qv5Vm70FmXwK_U_CtmsBeqLQw/edit?usp=sharing)
