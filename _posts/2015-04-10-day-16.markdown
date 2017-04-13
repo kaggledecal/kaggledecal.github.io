@@ -4,9 +4,11 @@ subtitle: "Recap. Updating neural network parameters. The backpropagation algori
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/16.jpg"
-datestr: "Wed Mar 29"
+datestr: "Wed Apr 5"
 date:   2015-04-10 12:12:12
 published: true
 ---
 
 [Slides](https://docs.google.com/presentation/d/1xiRn9TyQKScqkoWdThKOQMqGiRVWgMV6tziWK6ky3PA/edit?usp=sharing)
+
+[Video](https://www.youtube.com/watch?v=yB-2lG49raE&index=13&list=PLe1ZejL9wM_4qG-EEM4iqudPKGKdZG-6h)

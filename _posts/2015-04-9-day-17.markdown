@@ -4,9 +4,11 @@ subtitle: "Building Neural Networks with Keras. Convolutional Layers. CNNs in Ke
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/17.jpg"
-datestr: "Mon Apr 3"
+datestr: "Mon Apr 10"
 date:   2015-04-9 12:12:12
 published: true
 ---
 
 [Slides](https://docs.google.com/presentation/d/13mOHBoUSHtNNyuljG3qv5Vm70FmXwK_U_CtmsBeqLQw/edit?usp=sharing)
+
+[Video](https://www.youtube.com/watch?v=_XQzT5Ik6Zo&index=14&list=PLe1ZejL9wM_4qG-EEM4iqudPKGKdZG-6h)

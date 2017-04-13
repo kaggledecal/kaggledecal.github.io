@@ -4,9 +4,11 @@ subtitle: "Demonstrations. High-level overview. Biological inspiration. Feedforw
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/15.jpg"
-datestr: "Mon Mar 27"
+datestr: "Mon Apr 3"
 date:   2015-04-11 12:12:12
 published: true
 ---
 
 [Slides](https://docs.google.com/presentation/d/1RpvBuvBmnd03uhOBiDZ9hvfxF0S3jx8UmQk9kWdXBVQ/edit?usp=sharing)
+
+[Video](https://www.youtube.com/watch?v=LLUISB1iCnw&index=12&list=PLe1ZejL9wM_4qG-EEM4iqudPKGKdZG-6h)
