@@ -1,18 +1,12 @@
 ---
-title:  "Convlutional Neural Networks"
-subtitle: "Implementations of CNNs in Keras"
+title:  "Unsupervised Learning"
+subtitle: "PCA. Non-linear dimensionality reduction. Demonstrations and Applications."
 author: "Wferr"
 avatar: "img/authors/wferr.png"
 image: "img/19.jpg"
 datestr: "Mon Apr 10"
 date:   2015-04-7 12:12:12
-published: false
+published: true
 ---
 
-Slides: TBA
-
-Video: TBA
-
-Homework: TBA
-
-Projects: TBA
+[Slides](https://docs.google.com/presentation/d/1GOP8qB2Wg3Jx7-Cx2Z4AcbK2nQFM3cIgGk2zJjkteMs/edit?usp=sharing)
